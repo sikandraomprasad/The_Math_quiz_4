@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Fira+Sans&display=swap');
+
+body
+{
+	background:url("https://img.freepik.com/premium-photo/purple-pastel-background-design-abstract-creative-magenta-background-pastel-color-design-3d-illustration_507676-59.jpg?w=996");
+    background-size: 103%;
+font-family: fira sans;
+color: black;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 10px;
+        border: solid;
+        border-color: #c6aae4;
+	}
+
+	.login_div1:hover
+	{
+		color: white;
+border-color: #9661cf;
+transform: scale(1.0);
+transition: .5s;
+}
+
+	.login_div2:hover
+	{
+		color: white;
+border-color: #9661cf;
+transform: scale(1.0);
+transition: .5s;
+	}
+
+
+
+
+
+
+
+
+
+
+
+    #player1_name, #player2_name
+{
+	font-family: tahoma;
+    display: inline-block;
+	margin-left: 20px;
+    }
+
+    h1{
+        font-family: dangrek;
+        color:black;
+        font-size: 49px;
+    }
+    h3{
+        font-family: dangrek;
+       color: black;
+       font-size: 30px;
+    }
+    label{
+        font-family: fira sans;
+        color: black;
+    font-size: 20px;
+    }
+
+    #button_Login{
+        color: black;
+    background: linear-gradient(#c6aae4, #dfbbda, #f8fbff);
+    border: solid;
+    border-color:#9661cf;
+    font-size: 18px;
+    font-weight: bold;
+   height: 40px;
+   border-width: 2px;
+   border-radius: 1px;
+  
+}
+
+    #button_Login:hover{
+        transition: .3s;
+   transform: scale(1.0);
+        border-color: black;
+        background: linear-gradient(aliceblue, #d6e5f3, #a8d5eb);
+  
+      border-color: rgb(80, 136, 201);
+    }
+
+

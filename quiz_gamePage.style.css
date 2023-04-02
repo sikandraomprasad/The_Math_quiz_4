@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Fira+Sans&display=swap');
+
+
+body{
+    background: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+    background-size: cover;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid black;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+h2{
+    font-family: "dangrek";
+ font-size: 40px;
+}
+
+
+h4{
+    font-family: dangrek;
+    font-size: 28px;
+}
+
+#number1, #number2{
+    font-size: 14px;
+    font-family: fira sans;
+}
+
+#btnSend {
+    color: black;
+    background: #c7cdff;
+    border: solid;
+    border-color:black;
+    font-size: 18px;
+    font-weight: normal;
+    border-width: 2px;
+   font-family: fira sans; 
+   border-radius: 1px;
+}
+
+    #btnSend:hover{
+        border-color: black;
+        background: linear-gradient(#c7cdff, #d0c9e9);
+      
+    }
+
+    #player1_score{
+            font-family: fira sans;
+            font-size: 25px;
+        }
+        #player2_score{
+            font-family: fira sans;
+            font-size: 25px;
+        }
+
+
+
+        #answer{
+            font-family: fira sans;
+            font-size: 20px;
+        }
+        #input_check_box{
+            font-family: dangrek ;
+            font-size: 18px;
+        }
+        #check{
+            color: black;
+            background:#d1c4ff ;
+            border: solid;
+            border-color:black;
+            font-size: 16px;
+            font-weight: normal;
+            border-width: 2px;
+          font-family: fira sans;   
+        }
+
+        #player_question {
+            font-family: fira sans;
+        }
+
+        #player_answer{
+            font-family: fira sans;
+        }
+
+        
